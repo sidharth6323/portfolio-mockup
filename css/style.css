@@ -3,6 +3,11 @@
     src: url(../fonts/EraserDust.ttf);
 
 }
+@font-face {
+    font-family: BonvenoCF;
+    src: url(../fonts/BonvenoCF-Light.otf);
+
+}
 html,body
 {
 	background-color: #f4f5f9;
