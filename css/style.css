@@ -1,0 +1,206 @@
+@font-face {
+    font-family: Eraser;
+    src: url(../fonts/EraserDust.ttf);
+
+}
+html,body
+{
+	background-color: #f4f5f9;
+	font-family: "BonvenoCF";
+
+}
+.nav
+{
+	background-color: #ffffff;
+	height:50px;
+	position: fixed;
+	width: 100%;
+	z-index:2000;
+}
+.icon
+{
+	margin-left:20px;
+	padding-top: 7px;	
+}
+.bottomline
+{
+	border-top: 1px solid #bcbcbc;
+	margin-top: 40px;
+}
+.navbutton
+{
+	margin-left:30px;
+	display: inline-block;
+	margin-top: -30px;
+	padding-right:10px;
+	height:50px;
+	padding-top: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+	float: right;
+}
+.navactive
+{
+	background-color: #dddfe6;
+}
+.navbar
+{
+	padding-top:60px;
+}
+.me
+{
+	margin-left:40%;
+	margin-top: 30px;
+	position: relative;
+}
+.type1{
+  color: white; 
+  font-family: "Eraser";
+  font-size: 34px;
+  margin: 10px 0 0 10px;
+  white-space: nowrap;
+  overflow: hidden;
+  visibility: hidden;
+  position: absolute; 
+ top: 215px; 
+ left: 70px; 
+   width: 100%; 
+}
+.type2{
+  color: white; 
+  font-family: "Eraser";
+  font-size: 34px;
+  margin: 10px 0 0 10px;
+  white-space: nowrap;
+  overflow: hidden;
+  visibility: hidden;
+  position: absolute; 
+ top: 405px; 
+ left: 120px; 
+   width: 100%; 
+   display: inline-block;
+}
+.animtype{
+	visibility: visible;
+animation: type 4s steps(80, end);
+}
+.intro
+{
+	background:url("../raw/back.png");
+	z-index: -10000;
+	border-left:2px solid #bcbcbc;
+	height: 300px;
+	width: 900px;
+	overflow-y: hidden;
+	overflow-y: hidden;
+	position: relative;
+	visibility: hidden;
+	padding-top: 20px;
+}
+
+.fb
+{
+
+	width: 45px;
+	height:45px;
+	box-shadow: inset 0 0 0 48px #3b5998;
+	transition: all 0.5s ease;
+	z-index: 1000;
+	position: relative;
+	float: left;
+}
+.fb:hover
+{
+	box-shadow: inset 0 0 0 2px #3b5998;
+	transition: all 0.5s ease;
+
+}
+.twitter
+{
+	margin-left: 20px;
+	float: left;
+	width: 45px;
+	height:45px;
+	box-shadow: inset 0 0 0 48px #4099ff;
+	transition: all 0.5s ease;
+	z-index: 1000;
+	position: relative;
+}
+.twitter:hover
+{
+	box-shadow: inset 0 0 0 2px #4099ff;
+	transition: all 0.5s ease;
+
+}
+.linkedin
+{
+	margin-left: 20px;
+	float: left;
+	width: 45px;
+	height:45px;
+	box-shadow: inset 0 0 0 48px #0083BE;
+	transition: all 0.5s ease;
+	z-index: 1000;
+	position: relative;
+}
+.linkedin:hover
+{
+	box-shadow: inset 0 0 0 2px #0083BE;
+	transition: all 0.5s ease;
+
+}
+.github
+{
+	margin-left: 20px;
+	float: left;
+	width: 45px;
+	height:45px;
+	box-shadow: inset 0 0 0 48px #0D2636;
+	transition: all 0.5s ease;
+	z-index: 1000;
+	position: relative;
+}
+.github:hover
+{
+	box-shadow: inset 0 0 0 2px #0D2636;
+	transition: all 0.5s ease;
+
+}
+
+.introtext
+{
+	font-size: 28px;
+	margin-left: 20px;
+	visibility: hidden;
+}
+.introanim
+{
+	visibility: visible;
+	animation: outlinefirst 2s;
+}
+.fadein
+{
+	visibility: visible;
+	animation: fadein 2s;
+}
+@keyframes type{ 
+  from { width: 0; } 
+} 
+@keyframes fadein{ 
+  0%{opacity: 0}
+  50%{opacity: 0.5}
+  100%{opacity: 1} 
+} 
+@keyframes type2{
+  0%{width: 0;}
+  50%{width: 0;}
+  100%{ width: 100; } 
+} 
+
+@keyframes outlinefirst
+{
+	0%{height: 0;width: 0;}
+	10%{height: 300;width: 0;}
+	50%{width: 900;}
+	100%{background-color: #ffffff;}
+}
