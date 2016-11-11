@@ -16,11 +16,21 @@ html,body
 }
 .nav
 {
-	background-color: #ffffff;
 	height:50px;
 	position: fixed;
 	width: 100%;
-	z-index:2000;
+	z-index:3000;
+	background-color: #f4f5f9;
+	margin-top: -9px;
+}
+.navitems
+{
+	margin-right: 20px
+}
+.nav_top
+{
+background-color: #ffffff;
+height:50px;
 }
 .icon
 {
@@ -51,6 +61,7 @@ html,body
 .navbar
 {
 	padding-top:60px;
+	background-color: #f4f5f9;
 }
 .me
 {
