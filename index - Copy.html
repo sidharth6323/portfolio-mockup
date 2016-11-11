@@ -1,0 +1,75 @@
+<html>
+
+<head></head>
+<title></title>
+<link rel="stylesheet" href="css/style.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<body>
+    <div class="nav">
+        <div class="icon">
+            <img src="icon.svg" />
+        </div>
+        <div class="navbar">
+            <div class="navitems">
+            <div class="navbutton ">Get In Touch </div>
+            <div class="navbutton">What I Know </div>
+            <div class="navbutton">What I've Done </div>
+            <div class="navbutton navactive">Who Am I </div>
+            </div>
+            <div class="bottomline">
+            </div>
+        </div>
+    </div>
+    <br><br><br><br><br><br>
+    <div class="section1" >
+    <div class="me">
+        <img src="raw/new.png" class="pic" style="position: relative;">
+        <span class="type1">Hey, I'm </span><span class="type2" style="top:260px;left: 100px">Sid !</span>
+    </div>
+    <div class="intro" style="position: absolute;top:195px;left: 386px;z-index: 1000">
+    <p class="introtext" align="center"><span style="margin-bottom: 5px">A Python and Full Stack Web Developer with
+        </span><br><span>expertise in developing highly scalable API's</span><br><span>and deploying them over cloud.</span></p>
+    <div class="social" style="margin-left: 311px;margin-top: 50px;display: none;">
+        <a href="#">
+            <div class="fb">
+                <img src="raw/fb.png" style="margin-left:6px;margin-top: 7px;" width="30" height="30">
+            </div>
+        </a>
+        <a href="#">
+            <div class="twitter">
+                <img src="raw/twitter.png" style="margin-left:7px;margin-top: 7px;" width="30" height="30">
+            </div>
+        </a>
+        <a href="#">
+            <div class="linkedin">
+                <img src="raw/linkedin.png" style="margin-left:8px;margin-top: 7px;" width="30" height="30">
+            </div>
+        </a>
+        <a href="#">
+            <div class="github">
+                <img src="raw/github.png" style="margin-left:8px;margin-top: 7px;" width="30" height="30">
+            </div>
+        </a>
+    </div>
+</div>
+<img src="raw/scroll.png" class="scroll" height="55" width="70" style="margin-top:-140px;margin-left: 50%;margin-bottom: 500px;">
+</div>
+
+
+    
+</body>
+<script>
+	$(document).ready(function(){
+		$('.pic').hide(0).delay(200).fadeIn(700);
+		setTimeout(function(){$('.type1').addClass("animtype");}, 1000);
+		setTimeout(function(){$('.type2').addClass("animtype");}, 1600);
+		setTimeout(function(){$('.pic').animate({"marginLeft": '-60%'}, 1200,"swing");
+			$('.type1').animate({"marginLeft": '-59%'}, 1200,"swing");
+			$('.type2').animate({"marginLeft": '-59%'}, 1200,"swing");
+	}, 2200);
+		setTimeout(function(){$('.intro').addClass("introanim");}, 3500);
+		setTimeout(function(){$('.introtext').addClass("fadeIn");}, 4000);
+		$(".social").delay(4500).slideToggle(500);
+		$(".scroll").hide(0).delay(4800).fadeIn(500);
+	});
+</script></html>

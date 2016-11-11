@@ -24,7 +24,7 @@ html,body
 }
 .icon
 {
-	margin-left:30px;
+	margin-left:20px;
 	padding-top: 7px;	
 }
 .bottomline
@@ -54,7 +54,7 @@ html,body
 }
 .me
 {
-	margin-left:5%;
+	margin-left:40%;
 	margin-top: 30px;
 	position: relative;
 }
@@ -93,7 +93,7 @@ animation: type 4s steps(80, end);
 {
 	background:url("../raw/back.png");
 	z-index: -10000;
-	border-left:2px solid #777777;
+	border-left:2px solid #000000;
 	height: 300px;
 	width: 900px;
 	overflow-y: hidden;
@@ -102,34 +102,7 @@ animation: type 4s steps(80, end);
 	visibility: hidden;
 	padding-top: 20px;
 }
-.social_top
-{
-	float: right;
-	display: inline-block;
-	margin-top: -25px;
-	margin-right: 50px;
-	border-left: 1px solid #cccccc;
-	padding-left: 30px;
-}
-.social_top_img
-{
-	height: 20;
-	margin-right: 20px;
-	filter: grayscale(100%);
-	transition: all ease 1s;
-}
-.social_top_img:hover
-{
-	filter: grayscale(0%);
-	transition: all ease 1s;
-}
-.email
-{
-	float: right;
-	display: inline-block;
-	margin-top: -25px;
-	margin-right: 280px;
-}
+
 .fb
 {
 
